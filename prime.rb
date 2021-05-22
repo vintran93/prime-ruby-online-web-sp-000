@@ -1,7 +1,6 @@
 
-def prime?(n)
-  return false if n < 2
-  (2..n/2).none?{|i| n % i == 0}
+Prime.each(100) do |prime|
+  p prime # Ret => [2, 3, 5, 7, 11, ..., 97]
 end
 
 
